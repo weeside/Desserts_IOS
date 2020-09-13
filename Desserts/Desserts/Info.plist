@@ -5,6 +5,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Gotham-Black.otf</string>
+		<string>SpoqaHanSans-Bold.ttf</string>
+		<string>SpoqaHanSans-Regular.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
