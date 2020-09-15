@@ -24,6 +24,7 @@
 		CE206B38250E3E5400DC41BF /* SpoqaHanSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE206B36250E3E5300DC41BF /* SpoqaHanSans-Regular.ttf */; };
 		CE206B3A250E497000DC41BF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B39250E497000DC41BF /* QuestionViewController.swift */; };
 		CE206B3B250E497000DC41BF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B39250E497000DC41BF /* QuestionViewController.swift */; };
+		CE206B3D250F4E8400DC41BF /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CE206B33250E362C00DC41BF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE206B36250E3E5300DC41BF /* SpoqaHanSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSans-Regular.ttf"; sourceTree = "<group>"; };
 		CE206B39250E497000DC41BF /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				CE206B0B250E033600DC41BF /* ViewController.swift */,
 				CE206B33250E362C00DC41BF /* LoginViewController.swift */,
 				CE206B39250E497000DC41BF /* QuestionViewController.swift */,
+				CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				CE206B34250E362C00DC41BF /* LoginViewController.swift in Sources */,
 				CE206B3A250E497000DC41BF /* QuestionViewController.swift in Sources */,
 				CE206B0C250E033600DC41BF /* ViewController.swift in Sources */,
+				CE206B3D250F4E8400DC41BF /* WeeklyViewController.swift in Sources */,
 				CE206B08250E033600DC41BF /* AppDelegate.swift in Sources */,
 				CE206B0A250E033600DC41BF /* SceneDelegate.swift in Sources */,
 			);
