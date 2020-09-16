@@ -186,6 +186,10 @@
                                         <state key="normal" title="아니오">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="noSelected:" destination="rbP-MD-EFN" eventType="touchUpInside" id="OJE-7v-rfd"/>
+                                            <segue destination="tQe-VV-bHM" kind="presentation" identifier="noToWeekly" modalPresentationStyle="fullScreen" id="dcv-Md-RVy"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykc-dS-8P0">
                                         <rect key="frame" x="196.5" y="0.0" width="185.5" height="57"/>
@@ -194,6 +198,10 @@
                                         <state key="normal" title="네">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="yesSelected:" destination="rbP-MD-EFN" eventType="touchUpInside" id="Hc2-KJ-qY2"/>
+                                            <segue destination="tQe-VV-bHM" kind="presentation" identifier="yesToWeekly" modalPresentationStyle="fullScreen" id="kpQ-yo-Qug"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -236,7 +244,7 @@
                     <connections>
                         <outlet property="dateLabel" destination="xCT-B9-ZwW" id="67J-Iw-ZUL"/>
                         <outlet property="noButton" destination="ZTH-bg-kpH" id="Kex-nC-Hhn"/>
-                        <outlet property="questionLabel" destination="sbM-N4-Z3E" id="fb3-WO-7Il"/>
+                        <outlet property="questionLabel" destination="sbM-N4-Z3E" id="Cgd-Iv-78R"/>
                         <outlet property="yesButton" destination="Ykc-dS-8P0" id="UyH-tF-Nxu"/>
                     </connections>
                 </viewController>
@@ -354,8 +362,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="MFP-Tr-dlf"/>
                     <connections>
-                        <outlet property="commentLabel" destination="39V-EK-mMZ" id="AhW-6c-LN0"/>
-                        <outlet property="questionLabel" destination="39V-EK-mMZ" id="lk6-Eu-c8G"/>
+                        <outlet property="commentLabel" destination="39V-EK-mMZ" id="Jw8-E2-7TA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nm6-IO-Zur" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -364,6 +371,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="kpQ-yo-Qug"/>
         <segue reference="vHg-DS-Gb6"/>
     </inferredMetricsTieBreakers>
     <resources>

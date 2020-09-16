@@ -17,7 +17,7 @@ class WeeklyViewController: UIViewController {
         
         // 하단 string은 API에서 받아오는 것으로 교체될 예정
         let attributedString = NSMutableAttributedString(string: "요 며칠\n우울해 보였는데 😢\n오늘은 기분이 좋아 보여서\n다행이에요. ☺️", attributes: [
-          .font: UIFont(name: "SpoqaHanSans-Bold", size: 36.0)!,
+          .font: UIFont(name: "SpoqaHanSans-Bold", size: 32.0)!,
           .foregroundColor: UIColor(white: 0.0, alpha: 1.0)
         ])
         commentLabel.attributedText = attributedString

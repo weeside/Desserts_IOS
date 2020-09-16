@@ -15,6 +15,7 @@ class QuestionViewController: UIViewController {
     @IBOutlet weak var yesButton: UIButton!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -29,5 +30,15 @@ class QuestionViewController: UIViewController {
         questionLabel.attributedText = attributedString
     }
 
+    
+    // 하단 세그웨이들은 if로 오늘 답변한 질문 갯수 받아서 5개면 performSegue 실행하도록 수정해야 함
+    @IBAction func noSelected(_ sender: UIButton) {
+        performSegue(withIdentifier: "noToWeekly", sender: self)
+    }
+    
+    @IBAction func yesSelected(_ sender: UIButton) {
+        performSegue(withIdentifier: "yesToWeekly", sender: self)
+    }
+    
 }
 
