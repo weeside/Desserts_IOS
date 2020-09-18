@@ -12,6 +12,8 @@ import UIKit
 class WeeklyViewController: UIViewController {
 
     @IBOutlet weak var commentLabel: UILabel!
+    @IBOutlet private var chartView: MacawChartView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,9 +24,12 @@ class WeeklyViewController: UIViewController {
         ])
         commentLabel.attributedText = attributedString
         
+        chartView.contentMode = .scaleAspectFit
         
+//        MacawChartView.playAnimations()
     }
-
     
-    
+    @IBAction func monthlyButtonPressed(_ sender: UIButton) {
+        MacawChartView.playAnimations()
+    }
 }
