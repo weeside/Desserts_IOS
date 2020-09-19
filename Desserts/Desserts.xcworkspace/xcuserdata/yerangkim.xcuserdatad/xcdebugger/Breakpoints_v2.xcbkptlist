@@ -30,22 +30,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "088BE6E5-2210-4A67-9DF6-2353EDF382BD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Desserts/Views/MacawChartView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "createBars()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "6A812342-077E-43E0-93CF-2E546C0E152E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -53,8 +37,8 @@
             filePath = "Desserts/Views/MacawChartView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "createBars()"
             landmarkType = "7">
             <Locations>
@@ -95,14 +79,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4423F8EF-84A7-4DD6-9556-55235EAA7486"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Desserts/Views/MacawChartView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "createBars()"
             landmarkType = "7">
             <Locations>
@@ -142,70 +126,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F28BDD67-AA43-46F4-BE51-363F006CD1A7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Desserts/Views/MacawChartView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "createBars()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F28BDD67-AA43-46F4-BE51-363F006CD1A7 - 1c3abdc442d8c81a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Int, Macaw.Group) -&gt; Macaw.Animation in static Desserts.MacawChartView.(createBars in _CB0A60C40A56F4D7D8C9280ADED206B5)() -&gt; Macaw.Group"
-                  moduleName = "Desserts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yerangkim/Development/desserts_ios/Desserts/Desserts/Views/MacawChartView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "58">
-               </Location>
-               <Location
-                  uuid = "F28BDD67-AA43-46F4-BE51-363F006CD1A7 - ca986415efce0707"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Double) -&gt; Swift.Array&lt;Macaw.Node&gt; in closure #2 (Swift.Int, Macaw.Group) -&gt; Macaw.Animation in static Desserts.MacawChartView.(createBars in _CB0A60C40A56F4D7D8C9280ADED206B5)() -&gt; Macaw.Group"
-                  moduleName = "Desserts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yerangkim/Development/desserts_ios/Desserts/Desserts/Views/MacawChartView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "91">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5DCAF6A0-FDD7-476B-B786-D7F9EC5E96C7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Desserts/Views/MacawChartView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "createBars()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "A2D1C72F-9067-40BD-A039-D653AEB667A1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -213,8 +133,8 @@
             filePath = "Desserts/Views/MacawChartView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "createBars()"
             landmarkType = "7">
          </BreakpointContent>
@@ -229,8 +149,40 @@
             filePath = "Desserts/Views/MacawChartView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "createBars()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28E4A905-1116-494B-A047-5A31CDFFBDC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desserts/Views/MacawChartView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "createBars()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D16E4CDA-CC57-4E0C-B19C-A5C9F8F410F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desserts/Views/MacawChartView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "createBars()"
             landmarkType = "7">
          </BreakpointContent>
